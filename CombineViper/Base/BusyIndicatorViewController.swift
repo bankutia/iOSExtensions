@@ -14,9 +14,9 @@ public final class BusyIndicatorViewController: UIViewController {
         didSet {
             holderView.layer.apply {
                 $0.cornerRadius = 12
-                $0.shadowRadius = 15
-                $0.shadowColor = UIColor(red: 0x13, green: 0x13, blue: 0x2a, alpha: 0.4).cgColor
-                $0.shadowOpacity = 1
+                $0.shadowRadius = 5
+                $0.shadowColor = UIColor.systemGray.cgColor
+                $0.shadowOpacity = 0.7
                 $0.shadowOffset = .zero
             }
         }

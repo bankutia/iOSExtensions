@@ -120,7 +120,7 @@ open class BaseRouter: RouterProtocol, CancellableStore {
         guard let viewController = viewController,
               viewController.isVisible,
               !(viewController.presentedViewController is BusyIndicatorViewController),
-              let busyIndicator = UIStoryboard(name: "Base", bundle: Bundle(for: type(of: self))).instantiateInitialViewController() else { return }
+              let busyIndicator = UIStoryboard(name: "Base", bundle: Bundle(for: BaseRouter.self)).instantiateInitialViewController() else { return }
         
         busyIndicator.modalPresentationStyle = .overCurrentContext
         busyIndicator.modalTransitionStyle = .crossDissolve
