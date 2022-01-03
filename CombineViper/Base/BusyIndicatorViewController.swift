@@ -24,6 +24,7 @@ public final class BusyIndicatorViewController: UIViewController {
     @IBOutlet var imageView: UIImageView! {
         didSet {
             imageView.isHidden = true
+            imageView.tintColor = AppearanceManager.appearance.busyIndicatorImageTintColor
         }
     }
     @IBOutlet var busyIndicator: UIActivityIndicatorView!
