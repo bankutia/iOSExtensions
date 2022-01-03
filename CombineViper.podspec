@@ -9,7 +9,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "ALi" => "bankutia@gmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :path => '.' }
-  spec.source_files  = "CombineViper/Base", "CombineViper/DI"
+  spec.source_files = "CombineViper/Base", "CombineViper/DI"
+  spec.resources    = "CombineViper/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   spec.swift_version = "5.0"
 
   spec.framework = "UIKit"
