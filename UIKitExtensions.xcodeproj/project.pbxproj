@@ -63,6 +63,7 @@
 		41BA2ED1277C55F0004CB046 /* UITextField+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA2ED0277C55F0004CB046 /* UITextField+Bind.swift */; };
 		41BA2ED3277C576F004CB046 /* CancellableStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA2ED2277C576F004CB046 /* CancellableStore.swift */; };
 		41BA2ED5277C5CAF004CB046 /* TextStyle+toAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA2ED4277C5CAF004CB046 /* TextStyle+toAttributes.swift */; };
+		41DE5AAA278360AD00092225 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DE5AA9278360AD00092225 /* AppearanceManager.swift */; };
 		41EC3BDA277E228800CD9B5E /* ScrollViewKeyboardCorrecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC3BD9277E228800CD9B5E /* ScrollViewKeyboardCorrecting.swift */; };
 		41F6EF742778D6B400D09768 /* AppStartsUpControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6EF732778D6B400D09768 /* AppStartsUpControlling.swift */; };
 		54A27A2B1DB0BC4BE40A4A2A /* Pods_UIKitExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD80F8059F9EC0BDEDD977 /* Pods_UIKitExtensions.framework */; };
@@ -163,6 +164,7 @@
 		41BA2ED0277C55F0004CB046 /* UITextField+Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Bind.swift"; sourceTree = "<group>"; };
 		41BA2ED2277C576F004CB046 /* CancellableStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableStore.swift; sourceTree = "<group>"; };
 		41BA2ED4277C5CAF004CB046 /* TextStyle+toAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextStyle+toAttributes.swift"; sourceTree = "<group>"; };
+		41DE5AA9278360AD00092225 /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
 		41EC3BD9277E228800CD9B5E /* ScrollViewKeyboardCorrecting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewKeyboardCorrecting.swift; sourceTree = "<group>"; };
 		41F6EF732778D6B400D09768 /* AppStartsUpControlling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStartsUpControlling.swift; sourceTree = "<group>"; };
 		45F8919283890F69EB11AA96 /* Pods-SwiftExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExtensions.debug.xcconfig"; path = "Target Support Files/Pods-SwiftExtensions/Pods-SwiftExtensions.debug.xcconfig"; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				410D62272778AA0200CB6B05 /* BusyIndicatorViewController.swift */,
 				410D62212778AA0200CB6B05 /* ModuleAssembler.swift */,
 				410D62232778AA0200CB6B05 /* RouterProtocol+Typealiases.swift */,
+				41DE5AA9278360AD00092225 /* AppearanceManager.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				410D62322778AA0200CB6B05 /* BusyIndicatorViewController.swift in Sources */,
 				410D62522778B11300CB6B05 /* DI.swift in Sources */,
 				410D62342778AA0200CB6B05 /* BaseCell.swift in Sources */,
+				41DE5AAA278360AD00092225 /* AppearanceManager.swift in Sources */,
 				410D622B2778AA0200CB6B05 /* BaseRouter.swift in Sources */,
 				410D62352778AA0200CB6B05 /* BaseAssembly.swift in Sources */,
 				410D622E2778AA0200CB6B05 /* RouterProtocol+Typealiases.swift in Sources */,
